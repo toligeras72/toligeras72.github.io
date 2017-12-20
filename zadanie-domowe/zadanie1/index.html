@@ -5,52 +5,57 @@
     <title>Document</title>
 </head>
 <body>
+    
     formularz na zapis uczestnika na szkolenie
     <form action="https://formspree.io/toligeras72@gmail.com"
       method="POST">
+      
     <p>
-    <label for="imie">Imie:</label><br>
-    <input type="text" name="imie" id="imie">
+        <label for="imie">Imie:</label><br>
+        <input type="text" name="imie" id="imie">
     </p>
    
     <p>
-    <label for="nazwisko">Nazwisko:</label><br>
-    <input type="text" name="nazwisko" id="nazwisko">
+        <label for="nazwisko">Nazwisko:</label><br>
+        <input type="text" name="nazwisko" id="nazwisko">
     </p>
     
     <p>
-    <label for="email">E-mail:</label><br>
-    <input type="email" name="email" id="email">
+        <label for="email">E-mail:</label><br>
+        <input type="email" name="email" id="email">
     </p>
     
     <p>
-    <label for="phone-number">Numer telefonu</label><br>
-    <input type="tel" name="phone-number" id="phone-number"><br>
+        <label for="phone-number">Numer telefonu</label><br>
+        <input type="tel" name="phone-number" id="phone-number"><br>
     </p>
     
     <p>Wybor miasta <br>
-       <select name="city" id="city">
-        <option value="value1">Krakow</option>
-        <option value="value2">Warszawa</option>
-        <option value="value3">Gdansk</option>
-    </select>
-        </p>
-    <p>
-    <label for="gender">Plec</label><br>
-    <input type="radio" name="gender" id="men">kobieta
-    <input type="radio" name="gender" id="women">mezczyzna
+        <select name="city" id="city">
+            <option value="value1">Krakow</option>
+            <option value="value2">Warszawa</option>
+            <option value="value3">Gdansk</option>
+        </select>
+    </p>
+    
+    <p>Plec<br>
+        <input type="radio" name="gender" id="male">
+        <label for="male">mezczyzna</label><br>
+        <input type="radio" name="gender" id="female">
+        <label for="female">kobieta</label>
     </p>
     
     <p>
-    <input type="checkbox" name="accept" id="accept">
-    <label for="accept">zgoda na dane osobowe</label>
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">zgoda na dane osobowe</label>
     </p>
     
-    <p><label for="message">Wiadomosc</label><br>
-    <textarea name="message" id="message"></textarea>
+    <p>
+        <label for="message">Wiadomosc</label><br>
+        <textarea name="message" id="message"></textarea>
     </p>
     
-    <input type="submit" value="Wyslij wiadomosc">
+        <input type="submit" value="Wyslij wiadomosc">
     </form>
     
 </body>
